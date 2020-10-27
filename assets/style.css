@@ -1,0 +1,101 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  
+
+}
+
+/* title  */
+header {
+  /* more on this crazy alphanumerical value in a minute! */
+  color: #8c9418;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: aliceblue;
+  height: 100px;
+  
+}
+/* end title */
+
+/* header */
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #474fa5;
+    margin: 0;
+    display: inline;
+    line-height: 2.5;
+  }
+  
+  header a {
+    text-decoration: none;
+    color: #0edf80;
+  }
+
+  header nav {
+    float: right;
+    margin: 7px 0;
+  }
+
+  header nav ul li {
+    display: inline;
+  }
+
+  header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+    display: inline;
+    line-height: 3.5;
+  }
+
+
+/* end header */
+
+/* body */
+
+section {
+  padding: 60px;
+  background-image: url("../reflections.jpg");
+ 
+}
+
+  section h3 {
+    float: right;
+    line-height: 10;
+
+  }
+
+  
+
+/* end body */
+ 
+/* work body */
+
+
+
+/* end work body */
+
+/* footer */
+
+footer {
+    background: #a8c2f1;
+    height: 50%;
+    padding: 40px 35px;
+  }
+
+  footer h2 {
+    display: inline;
+    color: #474fa5;
+    font-size: 30px;
+    margin: 0;
+  }
+
+  footer div {
+    float: left;
+    line-height: 1.5;
+    text-align: left;
+  }
+
+/* end footer */
